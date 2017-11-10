@@ -1,6 +1,5 @@
 #include <iostream>
 #include <map>
-#include "daytype.h"
 #include "bitset_tests.h"
 #include <vector>
 #include <deque>
@@ -13,14 +12,8 @@ int main(int argc, char *argv[]) {
 
     myMap.insert(make_pair(1, std::string("ali")));
 
-    day today;
-    today = monday;
-
-    cout << "today is: " << today;
-
     cout << myMap.size() << endl;
     cout << "Hello World!" << endl;
-
 
     std::vector<int> v;
     v.push_back(10);
